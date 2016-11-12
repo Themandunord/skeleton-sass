@@ -9,5 +9,5 @@ modules@0.7.6_1
 modules-runtime@0.7.6_1
 promise@0.8.7
 random@1.0.10
-rlespagnol:skeleton-sass@0.0.1
+rlespagnol:skeleton-sass@0.0.2
 underscore@1.0.9

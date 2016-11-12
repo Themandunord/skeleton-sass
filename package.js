@@ -1,6 +1,6 @@
 Package.describe({
     name: 'rlespagnol:skeleton-sass'
-    , version: '0.0.1', // Brief, one-line summary of the package.
+    , version: '0.0.3', // Brief, one-line summary of the package.
     summary: 'A package to add the Skeleton framework to Meteor. The SASS version.', // URL to the Git repository containing the source code for this package.
     git: 'https://github.com/Themandunord/skeleton-sass.git', // By default, Meteor will default to using README.md for documentation.
     // To avoid submitting documentation, set this field to null.
@@ -17,8 +17,12 @@ Package.onUse(function (api) {
 
 
 
+
+
         
         , 'Skeleton-Sass/scss/base/_functions.scss'
+
+
 
 
 
@@ -29,8 +33,12 @@ Package.onUse(function (api) {
 
 
 
+
+
         
         , 'Skeleton-Sass/scss/base/_typography.scss'
+
+
 
 
 
@@ -41,8 +49,12 @@ Package.onUse(function (api) {
 
 
 
+
+
         
         , 'Skeleton-Sass/scss/base/_variables.scss'
+
+
 
 
 
@@ -53,8 +65,12 @@ Package.onUse(function (api) {
 
 
 
+
+
         
         , 'Skeleton-Sass/scss/modules/_code.scss'
+
+
 
 
 
@@ -65,8 +81,12 @@ Package.onUse(function (api) {
 
 
 
+
+
         
         , 'Skeleton-Sass/scss/modules/_grid.scss'
+
+
 
 
 
@@ -77,8 +97,12 @@ Package.onUse(function (api) {
 
 
 
+
+
         
         , 'Skeleton-Sass/scss/modules/_media-queries.scss'
+
+
 
 
 
@@ -89,14 +113,20 @@ Package.onUse(function (api) {
 
 
 
+
+
         
         , 'Skeleton-Sass/scss/modules/_tables.scss'
 
 
 
 
+
+
         
         , 'Skeleton-Sass/scss/skeleton.scss'
+
+
 
 
 
