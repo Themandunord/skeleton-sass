@@ -16,8 +16,10 @@ Package.onUse(function (api) {
 
 
 
+
         
         , 'Skeleton-Sass/scss/base/_functions.scss'
+
 
 
 
@@ -26,8 +28,10 @@ Package.onUse(function (api) {
 
 
 
+
         
         , 'Skeleton-Sass/scss/base/_typography.scss'
+
 
 
 
@@ -36,8 +40,10 @@ Package.onUse(function (api) {
 
 
 
+
         
         , 'Skeleton-Sass/scss/base/_variables.scss'
+
 
 
 
@@ -46,8 +52,10 @@ Package.onUse(function (api) {
 
 
 
+
         
         , 'Skeleton-Sass/scss/modules/_code.scss'
+
 
 
 
@@ -56,8 +64,10 @@ Package.onUse(function (api) {
 
 
 
+
         
         , 'Skeleton-Sass/scss/modules/_grid.scss'
+
 
 
 
@@ -66,8 +76,10 @@ Package.onUse(function (api) {
 
 
 
+
         
         , 'Skeleton-Sass/scss/modules/_media-queries.scss'
+
 
 
 
@@ -76,8 +88,10 @@ Package.onUse(function (api) {
 
 
 
+
         
         , 'Skeleton-Sass/scss/modules/_tables.scss'
+
 
 
 
@@ -86,6 +100,9 @@ Package.onUse(function (api) {
 
 
 
+
         
-        , ], ['client']);
+        , ], ['client'], {
+        isImport: true
+    });
 });
